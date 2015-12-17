@@ -30,6 +30,7 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 #import "JSQMessagesCollectionViewFlowLayout.h"
 #import "JSQMessagesCollectionViewLayoutAttributes.h"
 #import "JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
+#import "JSQMessagesBubbleSizeCalculating.h"
 
 //  Toolbar
 #import "JSQMessagesComposerTextView.h"
