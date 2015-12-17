@@ -1,21 +1,23 @@
 //
-//  JSQMessages.h
-//  JSQMessages
-//
-//  Created by Hemanta Sapkota on 24/04/2015.
+//  Created by Jesse Squires
+//  http://www.jessesquires.com
 //
 //
+//  Documentation
+//  http://cocoadocs.org/docsets/JSQMessagesViewController
+//
+//
+//  GitHub
+//  https://github.com/jessesquires/JSQMessagesViewController
+//
+//
+//  License
+//  Copyright (c) 2014 Jesse Squires
+//  Released under an MIT license: http://opensource.org/licenses/MIT
+//
 
-#import <UIKit/UIKit.h>
-
-//! Project version number for JSQMessages.
-FOUNDATION_EXPORT double JSQMessagesVersionNumber;
-
-//! Project version string for JSQMessages.
-FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <JSQMessages/PublicHeader.h>
-
+#ifndef JSQMessages_JSQMessages_h
+#define JSQMessages_JSQMessages_h
 
 #import "JSQMessagesViewController.h"
 
@@ -27,10 +29,11 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 #import "JSQMessagesLoadEarlierHeaderView.h"
 
 //  Layout
+#import "JSQMessagesBubbleSizeCalculating.h"
+#import "JSQMessagesBubblesSizeCalculator.h"
 #import "JSQMessagesCollectionViewFlowLayout.h"
 #import "JSQMessagesCollectionViewLayoutAttributes.h"
 #import "JSQMessagesCollectionViewFlowLayoutInvalidationContext.h"
-#import "JSQMessagesBubbleSizeCalculating.h"
 
 //  Toolbar
 #import "JSQMessagesComposerTextView.h"
@@ -69,3 +72,6 @@ FOUNDATION_EXPORT const unsigned char JSQMessagesVersionString[];
 #import "UIColor+JSQMessages.h"
 #import "UIImage+JSQMessages.h"
 #import "UIView+JSQMessages.h"
+#import "NSBundle+JSQMessages.h"
+
+#endif
