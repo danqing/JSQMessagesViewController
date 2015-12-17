@@ -22,8 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DF84A11C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF849E1C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h */; };
-		24DF84A21C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF849F1C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h */; };
+		24DF84A11C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF849E1C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DF84A21C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DF849F1C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24DF84A31C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DF84A01C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.m */; };
 		2E25104A1AEA83010054CEF2 /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E250FEF1AEA83010054CEF2 /* JSQMessagesAssets.bundle */; };
 		2E25104B1AEA83010054CEF2 /* JSQSystemSoundPlayer+JSQMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E250FF11AEA83010054CEF2 /* JSQSystemSoundPlayer+JSQMessages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -481,6 +481,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DF84A21C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h in Headers */,
+				24DF84A11C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h in Headers */,
 				2E2510601AEA83010054CEF2 /* JSQMessagesBubbleImageFactory.h in Headers */,
 				2E2510591AEA83010054CEF2 /* JSQMessagesKeyboardController.h in Headers */,
 				2E2510941AEA83010054CEF2 /* JSQMessagesLoadEarlierHeaderView.h in Headers */,
@@ -511,7 +513,6 @@
 				2E2510841AEA83010054CEF2 /* JSQMessagesCollectionView.h in Headers */,
 				2E2510971AEA83010054CEF2 /* JSQMessagesMediaPlaceholderView.h in Headers */,
 				2E25105B1AEA83010054CEF2 /* JSQMessagesViewController.h in Headers */,
-				24DF84A11C20118800B4A418 /* JSQMessagesBubbleSizeCalculating.h in Headers */,
 				2E25108E1AEA83010054CEF2 /* JSQMessagesComposerTextView.h in Headers */,
 				2E2510741AEA83010054CEF2 /* JSQMessageAvatarImageDataSource.h in Headers */,
 				2E25107D1AEA83010054CEF2 /* JSQMessagesCollectionViewDelegateFlowLayout.h in Headers */,
@@ -525,7 +526,6 @@
 				2E25109C1AEA83010054CEF2 /* JSQMessagesTypingIndicatorFooterView.h in Headers */,
 				2E2510801AEA83010054CEF2 /* JSQVideoMediaItem.h in Headers */,
 				2E25107E1AEA83010054CEF2 /* JSQPhotoMediaItem.h in Headers */,
-				24DF84A21C20118800B4A418 /* JSQMessagesBubblesSizeCalculator.h in Headers */,
 				2E25104B1AEA83010054CEF2 /* JSQSystemSoundPlayer+JSQMessages.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
